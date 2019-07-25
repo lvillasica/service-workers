@@ -1,10 +1,10 @@
 {
-  "name": "service-worker-mock",
-  "version": "2.0.3",
+  "name": "sw-mock",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinterest/service-workers.git"
+    "url": "https://github.com/lvillasica/service-workers.git"
   },
   "files": [
     "index.js",
@@ -19,12 +19,12 @@
     "testing",
     "mock"
   ],
-  "homepage": "https://github.com/pinterest/service-workers/tree/master/packages/service-worker-mock",
+  "homepage": "https://github.com/lvillasica/service-workers/tree/master/packages/service-worker-mock",
   "author": "zackargyle",
   "license": "MIT",
   "dependencies": {
     "dom-urls": "^1.1.0",
-    "shelving-mock-indexeddb": "github:philipwalton/shelving-mock-indexeddb#621b7a275568051846d20e3e557fa1101418b1d1",
+    "shelving-mock-indexeddb": "^1.1.0",
     "url-search-params": "^0.10.0",
     "w3c-hr-time": "^1.0.1"
   }
